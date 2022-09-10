@@ -19,7 +19,7 @@
 }
 
 .nav-link{
-    box-shadow: #1F6CAB  0.8px 0.8px;
+    box-shadow: #00E6F6  0.5px 0.7px;
     border-radius: 10px;
 }
 
@@ -32,12 +32,22 @@
     color:#00E6F6;
 }
 
+/* .span-btn{
+    font-style: normal;
+    color:#00E6F6;
+} */
+
 .desc{
     color:#00E6F6;
 }
 
 .btn{
-    box-shadow: #1F6CAB 1.95px 1.95px 2.6px;
+    box-shadow: #00e6f6 4px -2px 2px -2px, #1f6cab -1px -2px 7px 0px;
+}
+
+.btn:hover{
+    color: #fff;
+    background: #00E6F6;;
 }
 
 .btn:first-child{
@@ -70,7 +80,7 @@
     height: 595px;
     padding: 76px 0px;
     gap: 101px;
-    box-shadow: #1F6CAB 1.95px 1.95px 2.6px;
+    box-shadow: #00e6f6 4px -2px 8px -1px, #082A3A -3px 0px 7px 0px;
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(48px);
     border-radius: 40px;
@@ -88,17 +98,44 @@
 }
 
 .card_box{
-    box-shadow: #1F6CAB 1.95px 1.95px 2.6px;
+    box-shadow: #00e6f6 2px -3px 2px -2px, #082A3A 0px -2px 7px 0px;
     box-sizing: border-box;
     width: 350px;
     height: 250px;
     background: rgba(255, 255, 255, 0.08);
     border-radius: 40px;
+    
 }
+
+.card_box:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+
 
 .card_body{
     margin-top: 65px;
     padding-top: 65px;
+}
+
+
+.card_body:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-3rem);
+}
+
+.content p{
+    opacity: 0;
+    height: 110px;
+    color: #00E6F6;
+}
+
+.content p:hover{
+    opacity: 1;
+    color: #00E6F6;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .skills{
@@ -107,7 +144,7 @@
     height: 1137px;
     padding: 76px 0px;
     gap: 101px;
-    box-shadow: #1F6CAB 1.95px 1.95px 2.6px;
+    box-shadow: #00e6f6 4px -2px 8px -1px, #082A3A -3px -2px 7px 0px;
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(48px);
     border-radius: 40px;
@@ -128,7 +165,7 @@
 }
 
 .card_carousel{
-    box-shadow: #1F6CAB 1.95px 1.95px 2.6px;
+    box-shadow: #00e6f6 2px -3px 2px -2px, #082A3A 0px -2px 7px 0px;
     box-sizing: border-box;
     width: 350px;
     height: 250px;
